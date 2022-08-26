@@ -8,11 +8,12 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: #f6fff0a6;
 }
 
 .header {
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #bee3db;
   padding: 20px 10px;
 }
 .header a {
@@ -26,22 +27,23 @@ body {
   border-radius: 4px;
 }
 
-.header a.logo {
+.header a.logoRepositorio {
   margin-left: 5%;
   font-size: 25px;
   font-weight: bold;
 }
 
 .header a:hover {
-  background-color: rgb(231, 139, 0);
-  color: white;
+  background-color: #f6fff0a6;
+  color: rgb(0, 0, 0);
 }
 
 .header-right {
   margin-left: 75%;
 }
 
-.content {
+main {
+  align-content: center;
   margin: 2%;
   margin-left: 6.5%;
 }
@@ -49,3 +51,27 @@ body {
 img {
   width: 30px;
 }
+.title {
+  margin-top: 3%;
+}
+
+.content {
+  margin-top: 3%;
+}
+
+.link {
+  color: black;
+  display: flex;
+  text-decoration: none;
+  width: 90%;
+}
+
+.description {
+  margin-left: 5%;
+  font-size: larger;
+}
+.logo {
+  width: 100px;
+}
+
+
