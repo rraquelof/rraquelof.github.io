@@ -52,7 +52,9 @@ img {
   width: 30px;
 }
 .title {
-  margin-top: 3%;
+  margin-top: 4%;
+  text-align: center;
+  width: 14%;
 }
 
 .content {
@@ -71,7 +73,31 @@ img {
   font-size: larger;
 }
 .logo {
-  width: 100px;
+  height: 16%;
+  width: 16%;
 }
 
+.textPage {
+  width: 95%;
+  text-indent: 4em;
+  margin-top: 2%;
+}
 
+main a:hover {
+  color: black;
+  padding: 2px;
+  text-decoration: none;
+  border-radius: 4px;
+  background-color: #bee3db;
+}
+
+.titlePage {
+  margin-top: 4%;
+}
+p {
+  line-height: 20px;
+}
+ul {
+  list-style: none;
+  line-height: 20px;
+}
