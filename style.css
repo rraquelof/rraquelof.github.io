@@ -6,6 +6,7 @@
   box-sizing: border-box;
   font-family: 'Nunito', sans-serif;
   font-family: 'Nunito Sans', sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -76,14 +77,8 @@ img {
 .logo {
   width: 16%;
 }
-/* .logopytest{
-  width: 18%;
-}
-.logoflask{
-  width: 13%;
-} */
+
 .expytest{
-  /* margin: auto; */
   width:40%;
 }
 .textPage {
@@ -112,4 +107,12 @@ p {
 ul {
   list-style: none;
   line-height: 20px;
+}
+
+footer{
+  font-size: 18px;
+  border-radius: 4px;
+  text-align: center;
+  background-color: #6096ba;
+  padding: 20px 10px;
 }
