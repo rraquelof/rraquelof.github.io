@@ -74,14 +74,25 @@ img {
   font-size: larger;
 }
 .logo {
-  height: 16%;
   width: 16%;
 }
-
+/* .logopytest{
+  width: 18%;
+}
+.logoflask{
+  width: 13%;
+} */
+.expytest{
+  /* margin: auto; */
+  width:40%;
+}
 .textPage {
   width: 95%;
   text-indent: 4em;
   margin-top: 2%;
+}
+.exFlask{
+  width:50%;
 }
 
 main a:hover {
